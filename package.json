@@ -1,0 +1,14 @@
+{
+  "name": "countries API",
+  "version": "1.0.0",
+  "description": "A Node.JS API For providing developers with world data based around countries",
+  "main": "index.js",
+  "repository": "https://github.com/DunMainor/countries-api.git",
+  "author": "Gidraph Danford",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
