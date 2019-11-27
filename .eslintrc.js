@@ -1,19 +1,27 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'commonjs': true,
-    'es6': true,
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true
   },
-  'extends': [
-    'google',
+  extends: [
+    'standard'
   ],
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly',
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
-  'parserOptions': {
-    'ecmaVersion': 2018,
+  parserOptions: {
+    ecmaVersion: 2018
   },
-  'rules': {
-  },
-};
+  rules: {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-undef": "warn",
+    "promise/always-return": "warn",
+    "promise/no-nesting": "warn",
+    "camelcase":"off",
+    "prefer-promise-reject-errors":"off",
+    "promise/always-return":"off"
+  }
+}
